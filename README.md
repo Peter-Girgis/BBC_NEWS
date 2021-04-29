@@ -5,8 +5,8 @@ BBC News Content Collect and Store
   * This Python Application crawls BBC online news website using the SCRAPY crawler framework (http://scrapy.org/).
   * This appliction cleans the news articles to obtain only information relevant to the news story,
     e.g. News URL, News Text, News Headline, Author and Countries mentioned in news article.
-  * News articles crawled are stored in Mongo Database hosted at mLab (https://mlab.com/home).
-  * Search REST APIs are provided, to access the data stored at the mongo database (hosted at mLab). 
+  * News articles crawled are stored in Mongo Database hosted at (https://cloud.mongodb.com/v2/6088878fb4369139d0f7a513#clusters).
+  * Search REST APIs are provided, to access the data stored at the mongo database. 
     * Using the search REST API, end user can fetch:
       * All the news articles in data base.
       * News Articles with a given keyword in News Text.
